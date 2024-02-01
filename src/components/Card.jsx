@@ -1,9 +1,11 @@
 import Button from "./Button";
+import profileAvatar from "../assets/images/precious-avatar.jpg";
 
 const Card = () => {
   return (
     <div className="card">
-      <img src="./src/assets/images/precious-avatar.jpg" alt="" />
+      {/* \social-links-profile\src\assets\images\precious-avatar.jpg" */}
+      <img src={profileAvatar} alt="Profile avatar" />
       <h2>Amaechi Precious</h2>
       <p className="location">Calabar, Cross River, Nigeria</p>
 
